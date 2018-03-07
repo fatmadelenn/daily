@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fatmadelenn.gunluk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="FC Günlüğüm"
+            android:theme="@style/theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="FC Günlüğüm"
+            android:theme="@style/theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UyeOl" />
+        <activity android:name=".CizimYazdir" />
+        <activity android:name=".Bolumler" />
+        <activity
+            android:name=".Sayfalar"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Gunluk" />
+        <activity android:name=".Drawer" />
+        <activity android:name=".AyrintiSayfasi" />
+        <activity android:name=".Sifre_degistir" />
+        <activity android:name=".Takvim" />
+        <activity android:name=".Draw"></activity>
+    </application>
+
+</manifest>
